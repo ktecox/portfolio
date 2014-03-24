@@ -1,36 +1,97 @@
-body {
-	font-family: tahoma, Arial, sans-serif;
-	background-color:#000000;
-	color:#c0c0c0;
-	}
-	
-h1 {
-	font-size:32px;
-	color:#006600;
-	background-color:#222222;
-	}
-	
-h2 {
-	font-size:28px;
-	color:#336699;
-	background-color:#222222;
-	}
-h3 {
-	font-size:24px;
-	color:#22ffff;
-	background-color:#222222;
-	}
-h4, h5, h6 {
-	font-size:18px;
-	color:#ff88ff;
-	background-color:#222222;
-	}
+body{
+  background-color: #FFF4F9;
+}
 
-a {
-	text-decoration:none;
-	color:#ffffff;
-	}
-	
-a:hover {
-	color:#00ff00;
-	}
+header{
+  background-color: #7C1137;
+  text-align: center;
+  width: 100%;
+  color: #FFF4F9;
+  padding-top: 60px;
+  padding-bottom: 5px;
+  font-size: 44.5px;
+  font-family: glass antiqua;
+  height:140px;
+}
+nav {
+  padding-top: 0px;
+  margin: 0px;
+  height:50px;
+  width: 100%;
+}
+
+nav ul{
+  font-family: glass antiqua;
+  display: inline;
+  float: left; 
+  margin: 0;
+  list-style-type: none;
+}
+
+nav ul li {
+  diplay: inline;
+  line-height: 40px;
+  float: left;
+  text-align: center;
+  width: 130px;
+  color: #7C1137; 
+  font-size: 18px;
+}
+
+nav a:link {
+  color: #7C1137;
+  text-decoration:none;
+}      /* unvisited link */
+
+nav a:visited {
+  color: #7C1137;
+  text-decoration:none;
+}  /* visited link */
+  
+nav a:active {
+  color:#7C1137;
+}  /* selected link */
+
+section{
+  clear:both;
+  font-family: glass antiqua;
+  padding-right: 80px;
+  padding-left: 89px;
+  text-align: justify;
+}
+
+section ul{
+  font-family: glass antiqua;
+  display: inline;
+  float: left; 
+  margin: 0;
+  list-style-type: none;
+}
+
+section ul li {
+  diplay: inline;
+  line-height: 40px;
+  float: left;
+  text-align: center;
+  width: 130px;
+  font-size: 18px;
+}
+
+section a:link {
+  color: #D92969;
+  text-decoration:none;
+}      /* unvisited link */
+
+section a:visited {
+  color: #D92969;
+  text-decoration:none;
+}  /* visited link */
+
+
+footer{
+  clear: both;
+  line-height: 50px;
+  text-align: center;
+  color: #7C1137;
+  font-family: glass antiqua;
+}
