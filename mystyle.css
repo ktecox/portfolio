@@ -4,35 +4,49 @@ body{
 
 header{
   background-color: #7C1137;
+}
+
+#name{
+  background-color: #7C1137;
   text-align: center;
-  width: 100%;
   color: #FFF4F9;
   padding-top: 60px;
   padding-bottom: 5px;
   font-size: 44.5px;
   font-family: glass antiqua;
-  height:140px;
+  height:140px; 
+  width: 700px;
+  margin: auto;
+  text-align: justtify;
 }
+
 nav {
   padding-top: 0px;
-  margin: 0px;
-  height:50px;
-  width: 100%;
+  text-align: center;
+  margin: auto;
+  display: block;
+  height: 50px;
+  width: 730px;
 }
 
 nav ul{
   font-family: glass antiqua;
   display: inline;
-  float: left; 
-  margin: 0;
+  display: block;
+  text-align: center;
+  float: left;
+  margin: auto;
   list-style-type: none;
 }
 
 nav ul li {
-  diplay: inline;
+  display: inline;
+  display: block;
   line-height: 40px;
+  float: right;
   float: left;
   text-align: center;
+  margin: auto;
   width: 130px;
   color: #7C1137; 
   font-size: 18px;
@@ -54,10 +68,13 @@ nav a:active {
 
 section{
   clear:both;
-  font-family: glass antiqua;
-  padding-right: 80px;
-  padding-left: 89px;
+  font-family: glass antiqua, josefin slab, serif;
   text-align: justify;
+  display: inline;
+  display: block;
+  float: middle;
+  margin: auto;
+  width: 560px;
 }
 
 section ul{
@@ -73,7 +90,7 @@ section ul li {
   line-height: 40px;
   float: left;
   text-align: center;
-  width: 130px;
+  width: 700px;
   font-size: 18px;
 }
 
@@ -87,6 +104,27 @@ section a:visited {
   text-decoration:none;
 }  /* visited link */
 
+item {
+  clear: both;
+  float: left;
+  font-family: glass antiqua, josefin slab, serif;
+  margin: 10px;
+  padding-top: 7px;
+  padding-left: 89px;
+  text-align: justify;
+}
+
+explanation{
+  clear: both;
+}
+
+explanation p{
+  font-family: glass antiqua, josefin slab, serif;
+  margin: 55px;
+  top-padding: 15px;
+  bottom-padding: 15px;
+  text-align: justify;
+}
 
 footer{
   clear: both;
