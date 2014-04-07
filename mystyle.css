@@ -20,36 +20,30 @@ header{
   text-align: justtify;
 }
 
-nav {
+nav { /*checked*/
   padding-top: 0px;
-  text-align: center;
   margin: auto;
   display: block;
+  display: inline;
+  text-align: center;
   height: 50px;
-  width: 730px;
-}
-
-nav ul{
+  width: 700px;
   font-family: glass antiqua;
-  display: inline;
-  display: block;
-  text-align: center;
-  float: left;
-  margin: auto;
   list-style-type: none;
+  float: left;
+  font-size: 18px;
+  color: #7C1137;
 }
 
-nav ul li {
+nav ul{ /*checked*/
+  margin: auto; 
+}
+
+nav ul li { /*checked*/
   display: inline;
-  display: block;
   line-height: 40px;
-  float: right;
   float: left;
-  text-align: center;
-  margin: auto;
   width: 130px;
-  color: #7C1137; 
-  font-size: 18px;
 }
 
 nav a:link {
@@ -79,19 +73,25 @@ section{
 
 section ul{
   font-family: glass antiqua;
-  display: inline;
-  float: left; 
-  margin: 0;
   list-style-type: none;
+  width:700px;
+  text-align:center;
 }
 
 section ul li {
   diplay: inline;
   line-height: 40px;
   float: left;
-  text-align: center;
-  width: 700px;
+  width:130px;
   font-size: 18px;
+}
+
+section #content ul li a{
+  display: block;
+  line-height: 40px;
+  float: left;
+  color: #7C1137; 
+  font-size: 18px;  
 }
 
 section a:link {
