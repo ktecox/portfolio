@@ -15,7 +15,7 @@ header{
   font-size: 44.5px;
   font-family: glass antiqua;
   height:140px; 
-  width: 700px;
+  width: 695px;
   margin: auto;
   text-align: justtify;
 }
@@ -26,7 +26,7 @@ nav {
   margin: auto;
   display: block;
   height: 50px;
-  width: 730px;
+  width: 760px;
 }
 
 nav ul{
@@ -47,7 +47,7 @@ nav ul li {
   float: left;
   text-align: center;
   margin: auto;
-  width: 130px;
+  width: 170px;
   color: #7C1137; 
   font-size: 18px;
 }
