@@ -114,22 +114,17 @@ item {
   clear: both;
   float: left;
   font-family: glass antiqua, josefin slab, serif;
-  margin: 10px;
-  padding-top: 7px;
-  padding-left: 89px;
-  text-align: justify;
+  width: 50px;
 }
 
 explanation{
   clear: both;
-}
-
-explanation p{
   font-family: glass antiqua, josefin slab, serif;
   margin: 55px;
   top-padding: 15px;
   bottom-padding: 15px;
   text-align: justify;
+  width: 300px;
 }
 
 footer{
