@@ -82,6 +82,7 @@ section ul{
   list-style-type: none;
   width:700px;
   text-align:center;
+  height: 200px;
 }
 
 section ul li {
