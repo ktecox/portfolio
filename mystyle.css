@@ -113,13 +113,12 @@ section a:visited {
 .item {
   padding: 10px;
   right-padding: 40px;
-  /*clear: both;*/
+  clear: both;
   float: left;
 }
 
 .explanation{
   font-family: glass antiqua, josefin slab, serif;
-  clear: both;
   float: center;
   margin: 55px;
   top-padding: 15px;
