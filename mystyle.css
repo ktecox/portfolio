@@ -110,14 +110,14 @@ section a:visited {
   text-decoration:none;
 }  /* visited link */
 
-item {
+.item {
   padding: 10px;
   right-padding: 40px;
   clear: both;
   float: left;
 }
 
-explanation{
+.explanation{
   font-family: glass antiqua, josefin slab, serif;
   clear: both;
   float: center;
