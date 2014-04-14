@@ -113,7 +113,7 @@ section a:visited {
 .item {
   padding: 10px;
   right-padding: 40px;
-  clear: both;
+  /*clear: both;*/
   float: left;
 }
 
