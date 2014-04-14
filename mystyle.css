@@ -111,20 +111,23 @@ section a:visited {
 }  /* visited link */
 
 item {
+  height: 50px;
+  padding: 10px;
+  right-padding: 40px;
   clear: both;
   float: left;
-  font-family: glass antiqua, josefin slab, serif;
-  width: 50px;
 }
 
 explanation{
-  clear: both;
   font-family: glass antiqua, josefin slab, serif;
+  clear: both;
+  float: center;
   margin: 55px;
   top-padding: 15px;
   bottom-padding: 15px;
   text-align: justify;
-  width: 300px;
+  width: 200px;
+  height: 100 px;
 }
 
 footer{
