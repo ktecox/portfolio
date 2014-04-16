@@ -77,6 +77,10 @@ section{
   width: 560px;
 }
 
+.resume{
+	float: center;
+}
+
 section ul{
   font-family: glass antiqua;
   list-style-type: none;
