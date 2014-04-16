@@ -112,8 +112,9 @@ section a:visited {
 }  /* visited link */
 
 .item {
-  padding: 10px;
-  right-padding: 40px;
+  padding-right: 60px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   clear: both;
   float: left;
 }
