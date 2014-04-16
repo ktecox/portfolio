@@ -105,7 +105,8 @@ section #content ul li a{
   line-height: 40px;
   float: left;
   color: #7C1137; 
-  font-size: 18px;  
+  font-size: 18px;
+  margin: 0px;  
 }
 
 section a:link {
