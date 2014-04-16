@@ -85,6 +85,10 @@ section ul{
   height: 200px;
 }
 
+.resume{
+	float: middle;
+}
+
 section ul li {
   diplay: inline;
   line-height: 40px;
