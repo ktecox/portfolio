@@ -85,6 +85,10 @@ section ul{
   height: 200px;
 }
 
+.methods{
+	text-align: center;
+}
+
 .resume img{
 	display: block;
 	width: 560px;
