@@ -1,88 +1,88 @@
 body{
-  background-color: #FFF4F9;
+	background-color: #FFF4F9;
 }
 
 header{
-  background-color: #7C1137;
+	background-color: #7C1137;
 }
 
 #name{
-  background-color: #7C1137;
-  text-align: center;
-  color: #FFF4F9;
-  padding-top: 60px;
-  padding-bottom: 5px;
-  font-size: 44.5px;
-  font-family: glass antiqua;
-  height:140px; 
-  width: 695px;
-  margin: auto;
-  text-align: justtify;
+	background-color: #7C1137;
+  	color: #FFF4F9;
+  	font-size: 44.5px;
+  	font-family: glass antiqua, josefin sans, serif;
+   	height:140px; 
+  	margin: auto;
+	padding-bottom: 5px;
+  	padding-top: 60px;
+  	text-align: center;
+  	text-align: justtify;
+	width: 695px;
 }
 
-nav {
-  padding-top: 0px;
-  text-align: center;
-  margin: auto;
-  display: block;
-  height: 50px;
-  width: 760px;
+nav {	
+	display: block;
+	height: 50px;
+	margin: auto;
+	padding-top: 0px;
+	text-align: center;
+	width: 760px;
 }
 
 nav ul{
-  font-family: glass antiqua;
-  display: inline;
-  display: block;
-  text-align: center;
-  float: left;
-  margin: auto;
-  list-style-type: none;
+	display: block;
+	display: inline;
+	float: left;
+	font-family: glass antiqua, josefin sans, serif;
+	list-style-type: none;
+	margin: auto;
+	text-align: center;
 }
 
 nav ul li {
-  display: inline;
-  display: block;
-  line-height: 40px;
-  float: right;
-  float: left;
-  text-align: center;
-  margin: auto;
-  width: 170px;
-  color: #7C1137; 
-  font-size: 18px;
+	color: #7C1137; 
+	display: inline;
+	display: block;
+	float: right;
+	float: left;
+	font-size: 18px;
+	line-height: 40px;
+	margin: auto;
+	text-align: center;
+	width: 170px;
 }
 
 nav a:link {
-  color: #7C1137;
-  text-decoration:none;
+	color: #7C1137;
+	text-decoration:none;
 }      /* unvisited link */
 
 nav a:visited {
-  color: #7C1137;
-  text-decoration:none;
+	color: #7C1137;
+	text-decoration:none;
 }  /* visited link */
   
 nav a:active {
-  color:#7C1137;
+	color:#7C1137;
 }  /* selected link */
 
 section{
-  clear:both;
-  font-family: glass antiqua, josefin slab, serif;
-  text-align: justify;
-  display: inline;
-  display: block;
-  float: middle;
-  margin: auto;
-  width: 560px;
+	clear:both;
+	display: inline;
+	display: block;
+	float: middle;
+	margin: auto;
+	font-family: glass antiqua, josefin slab, serif;
+	text-align: justify;
+	width: 560px;
 }
 
 section ul{
-  font-family: glass antiqua;
-  list-style-type: none;
-  width:700px;
-  text-align:center;
-  height: 200px;
+	height: 200px;
+	font-family: glass antiqua, josefin slab, serif;
+	list-style-type: none;
+	text-align:center;
+	width:700px;
 }
 
 .methods{
@@ -90,61 +90,59 @@ section ul{
 }
 
 .resume img{
+	border: solid, 10px, #7C1137; 
 	display: block;
+	margin: auto; 
 	width: 560px;
-	margin: auto;
-	border: solid, 10px, #7C1137;  
 }
 
 section ul li {
-  diplay: inline;
-  line-height: 40px;
-  float: left;
-  width:130px;
-  font-size: 18px;
+	display: inline;
+	float: left;
+	font-size: 18px;
+	line-height: 40px;
+	width:130px;
+
 }
 
 section #content ul li a{
-  display: block;
-  line-height: 40px;
-  float: left;
-  color: #7C1137; 
-  font-size: 18px;
-  margin: 0px;  
+	color: #7C1137;
+	display: block;
+	float: left;
+	font-size: 18px;
+	line-height: 40px;
+	margin: 0px;  
 }
 
 section a:link {
-  color: #D92969;
-  text-decoration:none;
+	color: #D92969;
+	text-decoration:none;
 }      /* unvisited link */
 
 section a:visited {
-  color: #D92969;
-  text-decoration:none;
+	color: #D92969;
+	text-decoration:none;
 }  /* visited link */
 
 .item {
-  padding-right: 45px;
-  padding-bottom: 30px;
-  clear: both;
-  float: left;
+	clear: both;
+	float: left;
+	padding-right: 45px;
+	padding-bottom: 30px;
 }
 
 .explanation{
-  font-family: glass antiqua, josefin slab, serif;
-  float: center;
-  /*margin: 55px;
-  top-padding: 15px;
-  bottom-padding: 15px;*/
-  text-align: justify;
-  width: 540px;
-  height: 200 px;
+	font-family: glass antiqua, josefin slab, serif;
+	float: center;
+	height: 200 px;
+	text-align: justify;
+	width: 540px;
 }
 
 footer{
-  clear: both;
-  line-height: 50px;
-  text-align: center;
-  color: #7C1137;
-  font-family: glass antiqua;
+	clear: both;
+	color: #7C1137;
+	font-family: glass antiqua, josefin slab, serif;
+	line-height: 50px;
+	text-align: center;
 }
